@@ -17,11 +17,24 @@ a {
   box-sizing: border-box;
 }
 
-@font-face {
+/* @font-face {
   font-family: "MrRobot";
   src: url("/assets/fonts/MrRobot.woff2") format("woff2"),
     url("/assets/fonts/MrRobot.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+} */
+
+@font-face {
+  font-family: "MrRobot";
+  src: url("/assets/fonts/mr_robot-webfont.eot");
+  src: url("/assets/fonts/mr_robot-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/mr_robot-webfont.woff2") format("woff2"),
+    url("/assets/fonts/mr_robot-webfont.woff") format("woff"),
+    url("/assets/fonts/mr_robot-webfont.ttf") format("truetype"),
+    url("/assets/fonts/mr_robot-webfont.svg#mrrobotregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
