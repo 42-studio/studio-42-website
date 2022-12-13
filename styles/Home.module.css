@@ -18,8 +18,8 @@
 .cover {
   background-color: black;
   z-index: 10;
-  width: 100vw;
-  height: 100vh;
+  width: 100dvw;
+  height: 100dvh;
   position: absolute;
   top: 0;
   left: 0;
@@ -46,7 +46,12 @@
   color: rgb(194, 193, 193);
 }
 
+.logo {
+  max-width: 80vw;
+}
+
 .email {
+  max-width: 80vw;
   opacity: 0;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
