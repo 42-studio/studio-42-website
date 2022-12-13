@@ -11,9 +11,15 @@ export default function Home() {
         </span>
 
         <div className={styles.stack} style={{ ["--stacks" as any]: 3 }}>
-          <span style={{ ["--index" as any]: 0 }}>Studio 42</span>
-          <span style={{ ["--index" as any]: 1 }}>Studio 42</span>
-          <span style={{ ["--index" as any]: 2 }}>Studio 42</span>
+          <span style={{ ["--index" as any]: 0 }}>
+            <img src="/assets/images/Studio_42.svg" alt="Studio 42"></img>
+          </span>
+          <span style={{ ["--index" as any]: 1 }}>
+            <img src="/assets/images/Studio_42.svg" alt="Studio 42"></img>
+          </span>
+          <span style={{ ["--index" as any]: 2 }}>
+            <img src="/assets/images/Studio_42.svg" alt="Studio 42"></img>
+          </span>
         </div>
 
         <div className={styles.email}>

@@ -17,15 +17,6 @@ a {
   box-sizing: border-box;
 }
 
-/* @font-face {
-  font-family: "MrRobot";
-  src: url("/assets/fonts/MrRobot.woff2") format("woff2"),
-    url("/assets/fonts/MrRobot.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-} */
-
 @font-face {
   font-family: "MrRobot";
   src: url("/assets/fonts/mr_robot-webfont.eot");
