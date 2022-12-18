@@ -18,8 +18,8 @@
 .cover {
   background-color: black;
   z-index: 10;
-  width: 100dvw;
-  height: 100dvh;
+  height: 100svh;
+  width: 100vw;
   position: absolute;
   top: 0;
   left: 0;
@@ -35,7 +35,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  height: 100svh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
