@@ -5,6 +5,9 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Studio ➃➁</title>
+      </Head>
       <main className={styles.main}>
         <span className={styles.span}>
           <span>website under construction</span>🚧
