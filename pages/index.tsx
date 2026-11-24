@@ -1,5 +1,5 @@
+import type { CSSProperties } from "react";
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -13,32 +13,32 @@ export default function Home() {
           <span>website under construction</span>🚧
         </span>
 
-        <div className={styles.stack} style={{ ["--stacks" as any]: 3 }}>
-          <span style={{ ["--index" as any]: 0 }}>
+        <div className={styles.stack} style={{ "--stacks": 3 } as CSSProperties}>
+          <span style={{ "--index": 0 } as CSSProperties}>
             <img
               className={styles.logo}
               src="/assets/images/Studio_42.svg"
               alt="Studio 42"
-            ></img>
+            />
           </span>
-          <span style={{ ["--index" as any]: 1 }}>
+          <span style={{ "--index": 1 } as CSSProperties}>
             <img
               className={styles.logo}
               src="/assets/images/Studio_42.svg"
               alt="Studio 42"
-            ></img>
+            />
           </span>
-          <span style={{ ["--index" as any]: 2 }}>
+          <span style={{ "--index": 2 } as CSSProperties}>
             <img
               className={styles.logo}
               src="/assets/images/Studio_42.svg"
               alt="Studio 42"
-            ></img>
+            />
           </span>
         </div>
 
         <div className={styles.email}>
-          a web design and development studio, lets work together<br></br>
+          a web design and development studio, lets work together<br />
           <a href="mailto:hello@42.studio">hello@42.studio</a>
         </div>
       </main>
